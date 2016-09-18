@@ -4,7 +4,9 @@ import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
- * lock interruptibly test
+ * lock interruptibly test:
+ * 当两个线程同时通过lock.lockInterruptibly()想获取某个锁时，假若此时线程A获取到了锁，而线程B只能在等待，
+ * 那么对线程B调用threadB.interrupt()方法能够中断线程B的等待过程。
  *
  * @author jingyangyan
  * @version 1.0
