@@ -13,12 +13,12 @@ class MyExHandler implements Thread.UncaughtExceptionHandler {
 }
 
 /**
- * @Description: ExHandler
+ * @Description: ExHandlerTest
  * @author Yanjingyang
  * @date 2016年8月12日 上午11:07:29
  * @version 1.0
  */
-public class ExHandler {
+public class ExHandlerTest {
 
 	/**
 	 * @Description: main
