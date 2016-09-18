@@ -5,12 +5,12 @@ package com.yan.thread;
  * 即使调用sleep方法，其他线程也无法访问这个对象。
  * Created by Administrator on 2016/9/17.
  */
-public class ThreadTest1 {
+public class SleepTest2 {
     private int i = 10;
     private Object object = new Object();
 
     public static void main(String[] args) {
-        ThreadTest1 test = new ThreadTest1();
+        SleepTest2 test = new SleepTest2();
         MyThread thread1 = test.new MyThread();
         MyThread thread2 = test.new MyThread();
         thread1.start();
